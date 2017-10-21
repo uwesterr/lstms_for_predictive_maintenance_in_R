@@ -1,6 +1,11 @@
-# lstms_for_predictive_maintenance_in_R
-This project shows how a keras lstm neural network can be implemented in R, in the R notebook the phyton code is next to the
-R code. The original python code is can be found at:  https://github.com/Azure/lstms_for_predictive_maintenance/blob/master/Deep%20Learning%20Basics%20for%20Predictive%20Maintenance.ipynb 
+# This notebook implements a keras LSTM in R in comparison to the python implementation
+
+It is not yet well known that keras is available for R. See details on this topic at https://tensorflow.rstudio.com/keras/ where there is also installation instructions.
+
+It is even possible to use tensorboard from within R, see https://tensorflow.rstudio.com/keras/articles/training_visualization.html and more on tensorboard at https://www.tensorflow.org/get_started/summaries_and_tensorboard. The video "Hands-on TensorBoard (TensorFlow Dev Summit 2017)"  https://www.youtube.com/watch?v=eBbEDRsCmv4 is a great starting point
+
+The original implementation in python is located at https://github.com/Azure/lstms_for_predictive_maintenance 
+
 
 ## Learned lessons
 - it seems easier to scale the data using python's preprocessing.MinMaxScaler
