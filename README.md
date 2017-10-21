@@ -12,4 +12,4 @@ The original implementation in python is located at https://github.com/Azure/lst
 - it seems easier to scale the data using python's preprocessing.MinMaxScaler
 - the data generator of python is handy, could not find something similar for R, let me know if there is something
 - data wrangling seems to be easier with R, but maybe that opinion is due to my limited knowledge of python
-- At least for me (on a mac) i had to select the "view in browser" option in the RStudio window which opens at the command ""tensorboard("logs")" for tensorboard. The RStudio window kept empty.
+- At least for me (on a mac) i had to select the "view in browser" option in the RStudio window which opens at the command ""tensorboard("logs")" for tensorboard. The RStudio window stayed empty.
